@@ -13,9 +13,9 @@ cd ~/flivercod-aicp/.repo
 git clone https://github.com/IkeGilbert/local_manifest.git
 cd flivercod-aicp
 rm -rf flivercod-aicp/vendor/aicp
-git clone https://github.com/IkeGilbert/aicp.git
 rm -rf flivercod-aicp/packages/apps/Settings
 rm -rf flivercod-aicp/packages/apps/AicpExtras
+git clone https://github.com/IkeGilbert/aicp.git
 git clone https://github.com/IkeGilbert/Settings.git
 git clone https://github.com/IkeGilbert/AicpExtras.git
 cd ~/flivercod-aicp/flivercod-aicp/FloydFlivercod
