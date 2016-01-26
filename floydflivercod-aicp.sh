@@ -10,14 +10,10 @@ cd ~/flivercod-aicp
 . build/envsetup.sh
 rm -rf flivercod-aicp/.repo/local_manifests
 git clone https://github.com/IkeGilbert/local_manifest.git
-cd ..
-cd vendor
-rm -rf aicp
+rm -rf flivercod-aicp/vendor/aicp
 git clone https://github.com/IkeGilbert/aicp.git
-cd ..
-cd packages/apps
-rm -rf Settings
-rm -rf AicpExtras
+rm -rf flivercod-aicp/packages/apps/Settings
+rm -rf flivercod-aicp/packages/apps/AicpExtras
 git clone https://github.com/IkeGilbert/Settings.git
 git clone https://github.com/IkeGilbert/AicpExtras.git
 cd ~/flivercod-aicp/flivercod-aicp/FloydFlivercod
