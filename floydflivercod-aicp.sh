@@ -5,7 +5,7 @@ repo sync --force-sync
 rm -rf flivercod-aicp/FloydFlivercod
 git clone https://github.com/IkeGilbert/FloydFlivercod.git
 cd ~/flivercod-aicp/flivercod-aicp/FloydFlivercod
-head -2 README.md
+head -25 README1.md
 cd ~/flivercod-aicp
 . build/envsetup.sh
 cd ~/flivercod-aicp/.repo
