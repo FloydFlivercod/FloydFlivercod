@@ -4,7 +4,6 @@ Build using Linux - I Recommend Ubuntu!
 
 Setup your build environment
 Download the shell script "floydflivercod-aicp.sh"
-http://ikeg.x10host.com/aicp/Flivercod/flivercod-aicp.sh
 
 Open a terminal & browse to where you saved the file 
 
