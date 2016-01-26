@@ -2,10 +2,11 @@ Floyd Flivercod's UNOFFICIAL custom AICP
 
 Build using Linux - I Recommend Ubuntu!
 
-1) Setup your build environment
-2) download the shell script "floydflivercod-aicp.sh"
-link here ---> http://ikeg.x10host.com/aicp/Flivercod/flivercod-aicp.sh
-3) open a terminal & browse to where you saved the file - do the following
+Setup your build environment
+Download the shell script "floydflivercod-aicp.sh"
+http://ikeg.x10host.com/aicp/Flivercod/flivercod-aicp.sh
+Open a terminal & browse to where you saved the file 
+Do the following
 
 $ chmod +x flivercod-aicp.sh
 $ ./flivercod-aicp.sh
