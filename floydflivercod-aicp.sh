@@ -9,6 +9,7 @@ head -25 README1.md
 cd ~/flivercod-aicp
 . build/envsetup.sh
 rm -rf flivercod-aicp/.repo/local_manifests
+cd ~/flivercod-aicp/.repo
 git clone https://github.com/IkeGilbert/local_manifest.git
 rm -rf flivercod-aicp/vendor/aicp
 git clone https://github.com/IkeGilbert/aicp.git
