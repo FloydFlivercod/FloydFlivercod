@@ -3,7 +3,7 @@ Floyd Flivercod's UNOFFICIAL custom AICP
 Build using Linux - I Recommend Ubuntu!
 
 Setup your build environment
-Download the shell script "floydflivercod-aicp.sh"
+Download the shell script "floydflivercod-aicp.sh" (right click link below & "save as")
 
 https://raw.githubusercontent.com/IkeGilbert/FloydFlivercod/master/floydflivercod-aicp.sh
 
