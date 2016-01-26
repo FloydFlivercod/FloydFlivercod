@@ -1,4 +1,4 @@
-Floyd Flivercods custom AICP
+Floyd Flivercod's UNOFFICIAL custom AICP
 
 Build using Linux - I Recommend Ubuntu!
 
