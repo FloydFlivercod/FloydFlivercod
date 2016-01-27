@@ -14,11 +14,12 @@ rm -rf local_manifest
 git clone https://github.com/IkeGilbert/local_manifest.git
 cd ~/flivercod-aicp/vendor
 rm -rf aicp
+cd ~/flivercod-aicp
+git clone https://github.com/IkeGilbert/aicp.git
+mv ~/flivercod-aicp/aicp ~/vendor
 cd ~/flivercod-aicp/packages/apps
 rm -rf Settings
 rm -rf AicpExtras
-cd ~/flivercod-aicp/vendor
-git clone https://github.com/IkeGilbert/aicp.git
 cd ~/flivercod-aicp/packages
 git clone https://github.com/IkeGilbert/Settings.git
 mv ~/flivercod-aicp/packages/Settings ~/flivercod-aicp/packages/apps
