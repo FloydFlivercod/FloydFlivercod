@@ -8,7 +8,6 @@ cd ~/flivercod-aicp/flivercod-aicp/FloydFlivercod
 head -25 README1.md
 cd ~/flivercod-aicp
 . build/envsetup.sh
-make clean
 cd ~/flivercod-aicp/.repo
 rm -rf local_manifest
 git clone https://github.com/IkeGilbert/local_manifest.git
