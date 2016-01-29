@@ -7,10 +7,9 @@ rm -rf Settings
 rm -rf AipcExtras
 cd ~/flivercod-aicp/vendor
 rm -rf aicp
-cd flivercod-aicp
+cd ~/flivercod-aicp
 repo init -u https://github.com/AICP/platform_manifest.git -b mm6.0
 repo sync --force-sync
-rm -rf flivercod-aicp
 git clone https://github.com/IkeGilbert/FloydFlivercod.git
 cd ~/flivercod-aicp/flivercod-aicp/FloydFlivercod
 head -25 README1.md
