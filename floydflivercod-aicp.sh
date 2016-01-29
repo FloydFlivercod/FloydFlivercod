@@ -2,6 +2,7 @@ mkdir flivercod-aicp
 rm -rf FloydFlivercod
 cd ~/flivercod-aicp/.repo
 rm -rf local_manifest
+rm -rf local_manifests
 cd ~/flivercod-aicp/packages/apps
 rm -rf Settings
 rm -rf AipcExtras
