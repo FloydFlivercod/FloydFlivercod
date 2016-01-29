@@ -14,7 +14,7 @@ git clone https://github.com/IkeGilbert/local_manifest.git
 cd ~/flivercod-aicp/vendor
 rm -rf aicp
 cd ~/flivercod-aicp
-git clone https://github.com/IkeGilbert/aicp.git
+git pull https://github.com/IkeGilbert/aicp.git
 mv ~/flivercod-aicp/aicp ~/flivercod-aicp/vendor
 cd ~/flivercod-aicp/packages/apps
 rm -rf Settings
