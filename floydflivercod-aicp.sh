@@ -1,4 +1,12 @@
 mkdir flivercod-aicp
+rm -rf flivercod-aicp
+cd ~/flivercod-aicp/.repo
+rm -rf local_manifest
+cd ~/flivercod-aicp/packages/apps
+rm -rf Settings
+rm -rf AipcExtras
+cd ~/flivercod-aicp/vendor
+rm -rf aicp
 cd flivercod-aicp
 repo init -u https://github.com/AICP/platform_manifest.git -b mm6.0
 repo sync --force-sync
