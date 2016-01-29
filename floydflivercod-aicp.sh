@@ -1,5 +1,5 @@
 mkdir flivercod-aicp
-rm -rf flivercod-aicp
+rm -rf FloydFlivercod
 cd ~/flivercod-aicp/.repo
 rm -rf local_manifest
 cd ~/flivercod-aicp/packages/apps
@@ -11,7 +11,7 @@ repo init -u https://github.com/AICP/platform_manifest.git -b mm6.0
 repo sync --force-sync
 cd ~/flivercod-aicp
 git clone https://github.com/IkeGilbert/FloydFlivercod.git
-cd ~/flivercod-aicp/flivercod-aicp/FloydFlivercod
+cd ~/flivercod-aicp/FloydFlivercod
 head -25 README1.md
 cd ~/flivercod-aicp
 . build/envsetup.sh
