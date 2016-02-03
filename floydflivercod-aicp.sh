@@ -6,6 +6,7 @@ rm -rf local_manifests
 cd ~/flivercod-aicp/packages/apps
 rm -rf Settings
 rm -rf AipcExtras
+rm -rf Messaging
 cd ~/flivercod-aicp
 rm -rf vendor
 repo init -u https://github.com/AICP/platform_manifest.git -b mm6.0
@@ -25,12 +26,16 @@ git clone https://github.com/IkeGilbert/aicp.git
 cd ~/flivercod-aicp/packages/apps
 rm -rf Settings
 rm -rf AicpExtras
+rm -rf Messaging
 cd ~/flivercod-aicp/packages
 git clone https://github.com/IkeGilbert/Settings.git
 mv ~/flivercod-aicp/packages/Settings ~/flivercod-aicp/packages/apps
 cd ~/flivercod-aicp/packages
 git clone https://github.com/IkeGilbert/AicpExtras.git
 mv ~/flivercod-aicp/packages/AicpExtras ~/flivercod-aicp/packages/apps
+cd ~/flivercod-aicp/packages
+git clone https://github.com/IkeGilbert/Messaging.git
+mv ~/flivercod-aicp/packages/Settings ~/flivercod-aicp/packages/apps
 cd ~/flivercod-aicp/FloydFlivercod
 head -25 README2.md
 cd ~/flivercod-aicp
