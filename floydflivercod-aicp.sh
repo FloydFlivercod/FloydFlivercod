@@ -34,10 +34,11 @@ cd ~/flivercod-aicp/packages
 git clone https://github.com/IkeGilbert/AicpExtras.git
 mv ~/flivercod-aicp/packages/AicpExtras ~/flivercod-aicp/packages/apps
 cd ~/flivercod-aicp/packages
-git clone https://github.com/IkeGilbert/Gello.git
-mv ~/flivercod-aicp/packages/Gello ~/flivercod-aicp/packages/apps
+git clone https://github.com/IkeGilbert/Messaging.git
+mv ~/flivercod-aicp/packages/Messaging ~/flivercod-aicp/packages/apps
 cd ~/flivercod-aicp/FloydFlivercod
 head -25 README2.md
 cd ~/flivercod-aicp
+mkdir /out
 export OUT_DIR_COMMON_BASE=/home/ikeg/flivercod-aicp/out
 
