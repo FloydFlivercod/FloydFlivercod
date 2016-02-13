@@ -37,11 +37,10 @@ cd ~/flivercod-aicp/packages
 git clone https://github.com/IkeGilbert/Messaging.git
 mv ~/flivercod-aicp/packages/Messaging ~/flivercod-aicp/packages/apps
 cd ~/flivercod-aicp/packages
-git clone https://github.com/IkeGilbert/packages_wallpapers_AICPapers.git
+git clone https://github.com/IkeGilbert/AICPapers.git
 mv ~/flivercod-aicp/packages/AICPapers ~/flivercod-aicp/packages/wallpapers
 cd ~/flivercod-aicp/FloydFlivercod
 head -25 README2.md
 cd ~/flivercod-aicp
-mkdir /out
-export OUT_DIR_COMMON_BASE=/home/ikeg/flivercod-aicp/out
+
 
