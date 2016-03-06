@@ -39,9 +39,6 @@ mv ~/flivercod-aicp/packages/Messaging ~/flivercod-aicp/packages/apps
 cd ~/flivercod-aicp/packages
 git clone https://github.com/IkeGilbert/CustomWallpapers.git
 mv ~/flivercod-aicp/packages/CustomWallpapers ~/flivercod-aicp/packages/CustomWallpapers
-cd ~/flivercod-aicp/packages
-git clone https://github.com/IkeGilbert/OmniStyle.git
-mv ~/flivercod-aicp/packages/OmniStyle ~/flivercod-aicp/packages/apps/OmniStyle
 cd ~/flivercod-aicp/FloydFlivercod
 head -25 README2.md
 cd ~/flivercod-aicp
