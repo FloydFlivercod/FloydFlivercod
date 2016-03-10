@@ -27,6 +27,7 @@ cd ~/flivercod-aicp/packages/apps
 rm -rf Settings
 rm -rf AicpExtras
 rm -rf Messaging
+rm -rf CustomWallpapers
 cd ~/flivercod-aicp/packages
 git clone https://github.com/IkeGilbert/Settings.git
 mv ~/flivercod-aicp/packages/Settings ~/flivercod-aicp/packages/apps
