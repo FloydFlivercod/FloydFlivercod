@@ -7,6 +7,7 @@ cd ~/flivercod-aicp/packages/apps
 rm -rf Settings
 rm -rf AipcExtras
 rm -rf Messaging
+rm -rf AudioFX
 cd ~/flivercod-aicp
 rm -rf vendor
 repo init -u https://github.com/AICP/platform_manifest.git -b mm6.0
