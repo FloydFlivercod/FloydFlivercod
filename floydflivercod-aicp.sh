@@ -43,6 +43,9 @@ git clone https://github.com/IkeGilbert/CustomWallpapers.git
 mv ~/flivercod-aicp/packages/CustomWallpapers ~/flivercod-aicp/packages/apps/CustomWallpapers
 cd ~/flivercod-aicp/packages
 rm -rf CustomWallpapers
+cd ~/flivercod-aicp/packages
+git clone https://github.com/IkeGilbert/ViPER4Android.git
+mv ~/flivercod-aicp/packages/ViPER4Android ~/flivercod-aicp/packages/apps/ViPER4Android
 cd ~/flivercod-aicp/FloydFlivercod
 head -25 README2.md
 cd ~/flivercod-aicp
