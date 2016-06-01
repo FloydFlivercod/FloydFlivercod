@@ -20,10 +20,10 @@ cd ~/flivercod-aicp
 cd ~/flivercod-aicp/.repo
 rm -rf local_manifest
 git clone https://github.com/IkeGilbert/local_manifest.git
-mkdir ~/flivercod-aicp/vendor
 cd ~/flivercod-aicp/vendor
 rm -rf aicp
 git clone https://github.com/IkeGilbert/aicp.git
+git clone https://github.com/IkeGilbert/android_device_oneplus_bacon.git
 cd ~/flivercod-aicp/packages/apps
 rm -rf Settings
 rm -rf AicpExtras
