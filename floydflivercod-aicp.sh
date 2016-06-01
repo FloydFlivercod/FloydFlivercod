@@ -23,6 +23,7 @@ git clone https://github.com/IkeGilbert/local_manifest.git
 cd ~/flivercod-aicp/vendor
 rm -rf aicp
 git clone https://github.com/IkeGilbert/aicp.git
+cd ~/flivercod-aicp/device
 git clone https://github.com/IkeGilbert/android_device_oneplus_bacon.git
 cd ~/flivercod-aicp/packages/apps
 rm -rf Settings
