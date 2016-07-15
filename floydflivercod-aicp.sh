@@ -40,6 +40,7 @@ mv ~/flivercod-aicp/packages/CustomWallpapers ~/flivercod-aicp/packages/apps/Cus
 cd ~/flivercod-aicp/packages
 rm -rf CustomWallpapers
 cd ~/flivercod-aicp/device
+rm -rf oneplus
 git clone https://github.com/IkeGilbert/oneplus.git
 cd ~/flivercod-aicp/FloydFlivercod
 head -25 README2.md
