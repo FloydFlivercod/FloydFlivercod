@@ -45,4 +45,4 @@ git clone https://github.com/IkeGilbert/oneplus.git
 cd ~/flivercod-aicp/FloydFlivercod
 head -25 README2.md
 cd ~/flivercod-aicp
-
+. build/envsetup.sh && brunch bacon
