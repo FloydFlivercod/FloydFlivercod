@@ -5,11 +5,11 @@ rm -rf local_manifest
 rm -rf local_manifests
 cd ~/flivercod-aicp/packages/apps
 rm -rf Settings
-rm -rf AipcExtras
+rm -rf AicpExtras
 rm -rf AudioFX
 cd ~/flivercod-aicp
 rm -rf vendor
-repo init -u https://github.com/AICP/platform_manifest.git -b mm6.0
+repo init -u https://github.com/AICP/platform_manifest.git -b n7.0
 repo sync --force-sync
 cd ~/flivercod-aicp
 git clone https://github.com/IkeGilbert/FloydFlivercod.git
