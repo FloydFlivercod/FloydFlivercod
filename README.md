@@ -1,4 +1,4 @@
-Floyd Flivercod's UNOFFICIAL custom AICP
+Floyd Flivercod's UNOFFICIAL custom AICP - Android N
 
 Build using Linux - I Recommend Ubuntu!
 
