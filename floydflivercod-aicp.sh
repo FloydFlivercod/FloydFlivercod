@@ -1,48 +1,49 @@
-mkdir flivercod-aicp
 rm -rf FloydFlivercod
-cd ~/flivercod-aicp/.repo
+cd ~/AICP
+git clone https://github.com/IkeGilbert/FloydFlivercod.git
+cd ~/AICP/FloydFlivercod
+head -25 README.md
+cd ~/AICP/.repo
 rm -rf local_manifest
-rm -rf local_manifests
-cd ~/flivercod-aicp/packages/apps
+cd ~/AICP/packages/apps
 rm -rf Settings
 rm -rf AicpExtras
 rm -rf AudioFX
-cd ~/flivercod-aicp
+cd ~/AICP
 rm -rf vendor
-repo init -u https://github.com/AICP/platform_manifest.git -b n7.0
+repo init -u https://github.com/AICP/platform_manifest.git -b n7.1
 repo sync --force-sync
-cd ~/flivercod-aicp
-git clone https://github.com/IkeGilbert/FloydFlivercod.git
-cd ~/flivercod-aicp/FloydFlivercod
-head -25 README1.md
-cd ~/flivercod-aicp
+cd ~/AICP/FloydFlivercod
+head -25 README2.md
+cd ~/AICP
 . build/envsetup.sh
-cd ~/flivercod-aicp/.repo
+cd ~/AICP/.repo
 rm -rf local_manifest
 git clone https://github.com/IkeGilbert/local_manifest.git
-mkdir ~/flivercod-aicp/vendor
-cd ~/flivercod-aicp/vendor
+mkdir ~/AICP/vendor
+cd ~/AICP/vendor
 rm -rf aicp
 git clone https://github.com/IkeGilbert/aicp.git
-cd ~/flivercod-aicp/packages/apps
+cd ~/AICP/packages/apps
 rm -rf Settings
 rm -rf AicpExtras
 rm -rf CustomWallpapers
-cd ~/flivercod-aicp/packages
+cd ~/AICP/packages
 git clone https://github.com/IkeGilbert/Settings.git
-mv ~/flivercod-aicp/packages/Settings ~/flivercod-aicp/packages/apps
-cd ~/flivercod-aicp/packages
+mv ~/AICP/packages/Settings ~/AICP/packages/apps
+cd ~/AICP/packages
 git clone https://github.com/IkeGilbert/AicpExtras.git
-mv ~/flivercod-aicp/packages/AicpExtras ~/flivercod-aicp/packages/apps
-cd ~/flivercod-aicp/packages
+mv ~/AICP/packages/AicpExtras ~/AICP/packages/apps
+cd ~/AICP/packages
 git clone https://github.com/IkeGilbert/CustomWallpapers.git
-mv ~/flivercod-aicp/packages/CustomWallpapers ~/flivercod-aicp/packages/apps/CustomWallpapers
-cd ~/flivercod-aicp/packages
+mv ~/AICP/packages/CustomWallpapers ~/AICP/packages/apps/CustomWallpapers
+cd ~/AICP/packages
 rm -rf CustomWallpapers
-cd ~/flivercod-aicp/device
+cd ~/AICP/device
 rm -rf oneplus
 git clone https://github.com/IkeGilbert/oneplus.git
-cd ~/flivercod-aicp/FloydFlivercod
+cd ~/AICP
+git clone https://github.com/IkeGilbert/FloydFlivercod.git
+cd ~/AICP/FloydFlivercod
 head -25 README2.md
-cd ~/flivercod-aicp
-. build/envsetup.sh && brunch bacon
+cd ~/AICP
