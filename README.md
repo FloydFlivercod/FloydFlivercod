@@ -5,7 +5,7 @@ Build using Linux - I Recommend Ubuntu!
 Setup your build environment
 Download the shell script "floydflivercod-aicp.sh" (right click link below & "save as")
 
-https://raw.githubusercontent.com/IkeGilbert/FloydFlivercod/master/floydflivercod-aicp.sh
+https://raw.githubusercontent.com/FloydFlivercod/FloydFlivercod/master/floydflivercod-aicp.sh
 
 Open a terminal & browse to where you saved the file 
 

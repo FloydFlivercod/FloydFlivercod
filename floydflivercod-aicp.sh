@@ -1,28 +1,28 @@
-cd ~/AICP/vendor
-mv ~/AICP/vendor/aicp ~/AICP/vendor/aicp1
-cd ~/AICP/packages/apps
-mv ~/AICP/packages/apps/AicpExtras ~/AICP/packages/apps/AicpExtras1
-mv ~/AICP/packages/apps/Settings ~/AICP/packages/apps/Settings1
-repo init -u https://github.com/AICP/platform_manifest.git -b n7.1
+cd ~/FlivercodROM/vendor
+mv ~/FlivercodROM/vendor/aicp ~/FlivercodROM/vendor/aicp1
+cd ~/FlivercodROM/packages/apps
+mv ~/FlivercodROM/packages/apps/AicpExtras ~/FlivercodROM/packages/apps/AicpExtras1
+mv ~/FlivercodROM/packages/apps/Settings ~/FlivercodROM/packages/apps/Settings1
+repo init -u https://github.com/FloydFlivercod/platform_manifest.git -b n7.1
 repo sync --force-sync && . build/envsetup.sh
 rm -rf FloydFlivercod
-cd ~/AICP
+cd ~/FlivercodROM
 git clone https://github.com/IkeGilbert/FloydFlivercod.git
-cd ~/AICP/FloydFlivercod
+cd ~/FlivercodROM/FloydFlivercod
 head -25 README.md
-cd ~/AICP/packages/apps
+cd ~/FlivercodROM/packages/apps
 rm -rf Settings
 rm -rf AicpExtras
-cd ~/AICP/vendor
+cd ~/FlivercodROM/vendor
 rm -rf aicp
-mv ~/AICP/vendor/aicp1 ~/AICP/vendor/aicp
-cd ~/AICP/packages/apps
-mv ~/AICP/packages/apps/AicpExtras1 ~/AICP/packages/apps/AicpExtras
-mv ~/AICP/packages/apps/Settings1 ~/AICP/packages/apps/Settings
+mv ~/FlivercodROM/vendor/aicp1 ~/FlivercodROM/vendor/aicp
+cd ~/FlivercodROM/packages/apps
+mv ~/FlivercodROM/packages/apps/AicpExtras1 ~/FlivercodROM/packages/apps/AicpExtras
+mv ~/FlivercodROM/packages/apps/Settings1 ~/FlivercodROM/packages/apps/Settings
 git clone https://github.com/IkeGilbert/CustomWallpapers.git
-mv ~/AICP/packages/CustomWallpapers ~/AICP/packages/apps/CustomWallpapers
-cd ~/AICP/FloydFlivercod
+mv ~/FlivercodROM/packages/CustomWallpapers ~/FlivercodROM/packages/apps/CustomWallpapers
+cd ~/FlivercodROM/FloydFlivercod
 head -25 README2.md
-cd ~/AICP
+cd ~/FlivercodROM
 source build/envsetup.sh
-brunch bacon
+brunch oneplus3
