@@ -19,8 +19,6 @@ mv ~/FlivercodROM/vendor/aicp1 ~/FlivercodROM/vendor/aicp
 cd ~/FlivercodROM/packages/apps
 mv ~/FlivercodROM/packages/apps/AicpExtras1 ~/FlivercodROM/packages/apps/AicpExtras
 mv ~/FlivercodROM/packages/apps/Settings1 ~/FlivercodROM/packages/apps/Settings
-git clone https://github.com/IkeGilbert/CustomWallpapers.git
-mv ~/FlivercodROM/packages/CustomWallpapers ~/FlivercodROM/packages/apps/CustomWallpapers
 cd ~/FlivercodROM/FloydFlivercod
 head -25 README2.md
 cd ~/FlivercodROM
