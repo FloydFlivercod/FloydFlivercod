@@ -15,7 +15,8 @@ rm -rf Settings
 rm -rf AicpExtras
 cd ~/FlivercodROM/vendor
 rm -rf aicp
-mv ~/FlivercodROM/vendor/aicp1 ~/FlivercodROM/vendor/aicp
+git clone https://github.com/FloydFlivercod/vendor_aicp.git
+mv ~/FlivercodROM/vendor/vendor_aicp ~/FlivercodROM/vendor/aicp
 cd ~/FlivercodROM/packages/apps
 mv ~/FlivercodROM/packages/apps/AicpExtras1 ~/FlivercodROM/packages/apps/AicpExtras
 mv ~/FlivercodROM/packages/apps/Settings1 ~/FlivercodROM/packages/apps/Settings
