@@ -3,7 +3,7 @@ mv ~/FlivercodROM/vendor/aicp ~/FlivercodROM/vendor/aicp1
 cd ~/FlivercodROM/packages/apps
 mv ~/FlivercodROM/packages/apps/AicpExtras ~/FlivercodROM/packages/apps/AicpExtras1
 mv ~/FlivercodROM/packages/apps/Settings ~/FlivercodROM/packages/apps/Settings1
-repo init -u https://github.com/FloydFlivercod/platform_manifest.git -b n7.1
+repo init -u https://github.com/FloydFlivercod/platform_manifest.git -b o8.0
 repo sync --force-sync && . build/envsetup.sh
 rm -rf FloydFlivercod
 cd ~/FlivercodROM
