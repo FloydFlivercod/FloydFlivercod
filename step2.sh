@@ -1,3 +1,3 @@
-cd ~/FlivercodROM
+cd ~/aicpP
 . build/envsetup.sh
-export OUT_DIR_COMMON_BASE=/home/ikeg/FlivercodROM/out
+export OUT_DIR_COMMON_BASE=/home/ikeg/aicpP/out
