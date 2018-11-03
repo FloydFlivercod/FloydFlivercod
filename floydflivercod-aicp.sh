@@ -17,14 +17,11 @@ rm -rf Settings
 rm -rf AicpExtras
 cd ~/FlivercodROM/vendor
 rm -rf aicp
-git clone https://github.com/FloydFlivercod/vendor_aicp.git
-mv ~/FlivercodROM/vendor/vendor_aicp ~/FlivercodROM/vendor/aicp
+git clone https://github.com/FloydFlivercod/aicp.git
 cd ~/FlivercodROM/device
-git clone https://github.com/FloydFlivercod/device_oneplus_oneplus3.git
-mv ~/FlivercodROM/device/oneplus/device_oneplus_oneplus3 ~/FlivercodROM/device/oneplus/oneplus3
+https://github.com/FloydFlivercod/oneplus3.git
 cd ~/FlivercodROM/packages/apps
-mv ~/FlivercodROM/packages/apps/AicpExtras1 ~/FlivercodROM/packages/apps/AicpExtras
-mv ~/FlivercodROM/packages/apps/Settings1 ~/FlivercodROM/packages/apps/Settings
+git clone https://github.com/FloydFlivercod/AicpExtras.git
 cd ~/FlivercodROM/FloydFlivercod
 head -25 README2.md
 cd ~/FlivercodROM
