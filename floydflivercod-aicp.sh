@@ -24,7 +24,7 @@ git clone https://github.com/FloydFlivercod/common.git
 cd ~/aicpP/packages/apps
 rm -rf ~/aicpP/packages/apps/AicpExtras
 git clone https://github.com/FloydFlivercod/AicpExtras.git
-cd ~/aicpP/vendor
+mv -f ~/aicpP/vendor/aicp/bootanimation/bootanimation.zip ~/aicpP/out/target/product/oneplus3/system/media
 cd ~/aicpP/FloydFlivercod
 head -25 README2.md
 cd ~/aicpP
