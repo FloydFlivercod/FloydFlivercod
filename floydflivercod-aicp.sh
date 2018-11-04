@@ -12,6 +12,7 @@ repo init -u https://github.com/AICP/platform_manifest.git -b p9.0
 repo sync --force-sync && . build/envsetup.sh
 rm -rf ~/aicpP/packages/apps/AicpExtras
 rm -rf ~/aicpP/vendor/aicp
+cd ~/aicpP/vendor
 git clone https://github.com/FloydFlivercod/aicp.git
 cd ~/aicpP/device
 mkdir aicpP/device/oneplus
@@ -23,6 +24,7 @@ git clone https://github.com/FloydFlivercod/common.git
 cd ~/aicpP/packages/apps
 rm -rf ~/aicpP/packages/apps/AicpExtras
 git clone https://github.com/FloydFlivercod/AicpExtras.git
+cd ~/aicpP/vendor
 cd ~/aicpP/FloydFlivercod
 head -25 README2.md
 cd ~/aicpP
